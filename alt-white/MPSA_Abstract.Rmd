@@ -1,0 +1,48 @@
+---
+output: 
+  stevetemplates::article:
+    fig_caption: true
+#bibliography: master.bib
+biblio-style: apsr
+title: "Alt-White? Examining Minority Affect for the Alt-Right"
+thanks: "We thank George Hawley for his comments on this paper."
+author:
+- name: Jack Thompson
+  affiliation: Nottingham Trent University 
+- name: Daniel Braby
+  affiliation: University of Strathclyde
+abstract: "Many scholars of the Alt-Right suggest that the movement is just the latest, prominent permutation of White Nationalism in the US. Previous works recognise that studying the Alt-right is markedly difficult and have looked to identify its demographic constituency by pinpointing attitudes which form the basis of White Identity politics and linking this to personal characteristics (Hawley 2018). While we concur that pinpointing who the Alt-Right are is empirically complex, largely due to their consistently low support; we reject the notion that studying the Alt-Right should be limited to notions of White Identity. Given the sizeable amount of Minority-Ethnic participation in infamous Alt-Right rallys and protests, we look to explore differences in and determinants of affect towards the Alt-Right among Non-Whites in the U.S.."
+keywords: "Alt-Right, Race, Identity Politics"
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+geometry: margin=1in
+fontfamily: mathpazo
+fontsize: 11pt
+# spacing: double
+endnote: no
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(cache=TRUE,
+                      message=FALSE, warning=FALSE,
+                      fig.path='figs/',
+                      cache.path = '_cache/',
+                      fig.process = function(x) {
+                      x2 = sub('-\\d+([.][a-z]+)$', '\\1', x)
+                      if (file.rename(x, x2)) x2 else x
+                      })
+```
+
+### Brief Overview:
+
+Studies of the Alt-Right movement in the US, especially as it relates to identifying their demographic constituency has in the past been mostly limited to forming associations between the movement and White Identitarianism. Using an alternative dataset of American voter attitudes, we look beyond White Identity politics and examine the determinants of Minority-Ethnic support for the movement.
+
+```{=html}
+<!--
+# References
+\setlength{\parindent}{-0.2in}
+\setlength{\leftskip}{0.2in}
+\setlength{\parskip}{8pt}
+\vspace*{-0.2in}
+\noindent
+-->
+```
