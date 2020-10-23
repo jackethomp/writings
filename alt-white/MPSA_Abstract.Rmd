@@ -11,7 +11,9 @@ author:
   affiliation: Nottingham Trent University 
 - name: Daniel Braby
   affiliation: University of Strathclyde
-abstract: "Many scholars of the Alt-Right suggest that the movement is just the latest, prominent permutation of White Nationalism in the US. Previous works recognise that studying the Alt-right is markedly difficult and have looked to identify its demographic constituency by pinpointing attitudes which form the basis of White Identity politics and linking this to personal characteristics (Hawley 2018). While we concur that pinpointing who the Alt-Right are is empirically complex, largely due to their consistently low support; we reject the notion that studying the Alt-Right should be limited to notions of White Identity. Given the sizeable amount of Minority-Ethnic participation in infamous Alt-Right rallys and protests, we look to explore differences in and determinants of affect towards the Alt-Right among Non-Whites in the U.S.."
+abstract: "White identitarianism has long been the mobilizing force through which Whites have coalesced around radical movements such as the Alt-Right. Despite these strong effects through White identity, however, it is worth considering whether positive feelings towards the Alt-Right are similarly pervasive among minority populations, and whether these feelings are conditional on the same set of predictors for non-White individuals as they are for Whites. Using data from the 2016-2017 Voter Study, our pooled cross-sectional analysis using data from the 2016-2017 Voter Study indicates that levels of affect for the Alt-Right movement do not differ substantively across categories of racial identification. More importantly, our multilevel linear models using panel data indicate that affect for the Alt-Right is not conditional on the same set of predictors when contrasting on race. The findings highlight the important role of racial identity and group affect as predictors of minority support for White nationalist movements."
+
+
 keywords: "Alt-Right, Race, Identity Politics"
 date: "`r format(Sys.time(), '%B %d, %Y')`"
 geometry: margin=1in
